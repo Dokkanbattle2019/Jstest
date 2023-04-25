@@ -1,0 +1,15 @@
+const container = document.querySelector("#container")
+const paragraph = document.createElement("p")
+paragraph.classList.add("paragraph")
+paragraph.textContent = "Hello./"
+paragraph.style.color  ="red"
+container.appendChild("paragraph")
+
+const buttons = document.querySelectorAll("button")
+
+
+buttons.forEach((button) => {
+    button.addEventListener("click", () =>{
+        alert(button.id)
+    })
+})
