@@ -1,0 +1,41 @@
+.container {
+    width: 70vw;
+    height: 50vh;
+    border: 1px solid black;
+    overflow: auto;
+    background-color: aquamarine;
+}
+
+
+table {
+    border: 1px solid black;
+}
+
+td,
+th {
+    border: 1px solid black;
+}
+
+p {
+    margin: 20px;
+    border: 2px solid rgb(10, 2, 2 0, 5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+}
+
+.alreadyRead {
+    background-color: blue;
+}
+
+.notRead {
+    background-color: crimson;
+}
