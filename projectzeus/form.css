@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.error {
+    border: black 1px solid;
+}
+
+.error.active {
+    border: red solid 1px;
+    font-weight: bold;
+}

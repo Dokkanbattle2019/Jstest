@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="form.js" defer></script>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <form id="form" action="">
+      <label for="email">Enter your email</label>
+      <input type="email" id="email" required minlength="10" />
+      <div id="emailError"></div>
+      <label for="country">Where are you from?</label>
+      <input type="text" />
+      <label for="zip">What is your zip code</label>
+      <input type="number" id="zipCode" required min="10000" />
+      <div id="zipCodeError"></div>
+      <label for="password">Enter your password.</label>
+      <input type="password" id="password" />
+      <label for="passwordConfirmation">Password confirmation.</label>
+      <input type="password" id="passwordConfirmation" />
+      <div id="passwordConfirmationError"></div>
+      <input type="submit" />
+    </form>
+  </body>
+</html>

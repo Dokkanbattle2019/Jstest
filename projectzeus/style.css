@@ -1,0 +1,31 @@
+#container {
+    border: 5px solid green;
+}
+
+.slider {
+    border: 5px solid blue;
+}
+
+.nav {
+    display: flex;
+}
+
+.slider img {
+    display: none;
+}
+
+.slider .active {
+    display: block;
+}
+
+button {
+    border-radius: 16px;
+    width: 2vw;
+    height: 2vh;
+}
+
+
+#img3 {
+    width: 200px;
+    height: 200px;
+}
